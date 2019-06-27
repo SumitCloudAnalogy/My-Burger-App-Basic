@@ -1,10 +1,11 @@
 import React from 'react';
 import Aux from '../../../hoc/Auxiliary'
+import Button from "../../UI/Button/Button";
 
-const fileName = '[OrderSummary.js]';
+// const fileName = '[OrderSummary.js]';
 const orderSummary = (props) => {
     const ingredientSummary = Object.keys(props.ingredients).map(igKey => {
-        console.log(fileName, props);
+       // console.log(fileName, props);
         return (
             <li key={igKey}>
                 <span style={{ testTransform: 'capitalize'}}>{igKey}</span>: {props.ingredients[igKey]}
@@ -19,7 +20,16 @@ const orderSummary = (props) => {
             <ul>
                 {ingredientSummary}
             </ul>
+            <p><strong>Total Price: {props.price.toFixed(2)}</strong></p>
             <p>Continue to Checkout?</p>
+             <Button
+                 btnType="Danger"
+                 clicked={props.purchaseCancelled}
+             >CANCEL</Button>
+             <Button
+                 btnType="Success"
+                 clicked={props.purchaseContinued}
+             >CONTINUE</Button>
         </Aux>
     )
 };
