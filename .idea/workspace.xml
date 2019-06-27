@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32c13514-b92d-4310-86b0-30133105bfe1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/axios-orders.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/Burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/Burger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/SideDrawer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navigation/SideDrawer/SideDrawer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hoc/Auxiliary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/hoc/Auxiliary/Auxiliary.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,13 +18,47 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/axios-orders.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="59" lean-forward="true" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="98" column="37" lean-forward="true" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,7 +73,6 @@
         <option value="$PROJECT_DIR$/src/Layout/Layout.js" />
         <option value="$PROJECT_DIR$/src/hoc/Auxiliary.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.css" />
         <option value="$PROJECT_DIR$/src/components/Burger/BurgerIngredient/BurgerIngredient.js" />
         <option value="$PROJECT_DIR$/src/components/Burger/Burger.css" />
@@ -58,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/components/UI/Backdrop/Backdrop.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Button/Button.css" />
         <option value="$PROJECT_DIR$/src/components/UI/Button/Button.js" />
-        <option value="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
         <option value="$PROJECT_DIR$/src/components/Layout/Layout.css" />
         <option value="$PROJECT_DIR$/src/components/UI/Logo/Logo.css" />
         <option value="$PROJECT_DIR$/src/components/UI/Logo/Logo.js" />
@@ -78,14 +105,17 @@
         <option value="$PROJECT_DIR$/src/components/Navigation/SideDrawer/DrawerToggle/DrawerToggle.css" />
         <option value="$PROJECT_DIR$/src/components/Burger/OrderSummary/OrderSummary.js" />
         <option value="$PROJECT_DIR$/src/components/UI/Modal/Modal.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/axios-orders.js" />
+        <option value="$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1098" />
+    <option name="x" value="-1098" />
+    <option name="y" value="-8" />
+    <option name="width" value="2423" />
+    <option name="height" value="1103" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,6 +152,19 @@
               <item name="my-burger-app-basic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-burger-app-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-burger-app-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-burger-app-basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-burger-app-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="BurgerBuilder" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,12 +230,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561464970986</updated>
-      <workItem from="1561464974115" duration="38542000" />
+      <workItem from="1561464974115" duration="42424000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38542000" />
+    <option name="totallyTimeSpent" value="42424000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -205,6 +248,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
@@ -213,7 +257,7 @@
       <window_info anchor="bottom" id="Quokka" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" weight="0.31161472" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.29886687" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -439,16 +483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="109" column="23" lean-forward="true" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Burger/BuildControls/BuildControls.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -595,16 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -622,6 +646,33 @@
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/axios-orders.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="59" lean-forward="true" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/BurgerBuilder/BurgerBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="98" column="37" lean-forward="true" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
