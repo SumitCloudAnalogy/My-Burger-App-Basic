@@ -4,6 +4,7 @@ import Button from "../../UI/Button/Button";
 
 const fileName = '[OrderSummary.js]';
 class OrderSummary extends Component {
+
     componentWillUpdate(nextProps, nextState, nextContext) {
         console.log(fileName, 'WillUpdate')
     }
