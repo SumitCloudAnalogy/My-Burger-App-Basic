@@ -45,7 +45,7 @@ const  input = (props) => {
                 onChange={props.changed} />;
     }
    return (
-       <div className={inputClasses}>
+       <div className={classes.Input}>
             <label className={classes.Label}>
                 {props.label}
             </label>
