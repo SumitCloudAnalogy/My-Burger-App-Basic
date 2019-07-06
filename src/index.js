@@ -19,8 +19,8 @@ const rootReducer = combineReducers({
     auth: authReducer
 });
 const store = createStore(rootReducer, composeEnhancers(applyMiddleware(thunk)));
-console.log(store);
-const app = (
+// console.log(store);
+const rootApp = (
     <Provider store={store}>
         <BrowserRouter>
             <App />
@@ -29,7 +29,7 @@ const app = (
 );
 
 
-ReactDOM.render(app, document.getElementById('root'));
+ReactDOM.render(rootApp, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
